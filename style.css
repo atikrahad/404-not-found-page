@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 15vh;
+}
+h3{
+    
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+}
+.m-f{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+main{
+    height: 70vh;
+    display: flex;
+    padding: 30px 77px;
+    gap: 10px;
+    align-content:center ;
+}
+main img{
+    width: 80%;
+}
+.content h1{
+    color: #333;
+    font-size: 64px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: -2.24px;
+    font-weight: 700;
+}
+.content p{
+    color:( #4F4F4F);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+.content button{
+    background-color: #333;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.49px;
+    padding: 20px 40px;
+}
+footer{
+    
+}
+div{
+    width: 50%;
+    height: 90%;
+}
