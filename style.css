@@ -24,7 +24,7 @@ main{
     gap: 10px;
     align-content:center ;
 }
-main img{
+img{
     width: 80%;
 }
 .content h1{
@@ -80,4 +80,27 @@ span{
 div{
     width: 50%;
     height: 90%;
+}
+
+@media screen and (max-width: 576px) {
+    main{
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .content h1{
+        font-size: 48px;
+
+    }
+    div{
+        width: 100%;
+    }
+    h3{
+        padding: 20px;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        
+    }
 }
